@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        input {
+            text-align: left;
+            padding-left: 60px;
+            padding-right: 60px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            /* padding:12px; 14px; /*відступ в середині інпута * */
+        border-radius: 5px;
+        border:1px solid #EAEAEA;
+        }
+
+        p, div {
+            text-align: center;
+            color: rgb(10, 10, 10);
+        }
+
+        p span {
+            color: green;
+        }
+
+        button {
+            text-align: center;
+            padding-left: 120px;
+            padding-right: 120px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <form style="margin: 0 auto;">
+        <p><strong><b>Login</b></strong><span> <b>Register</b></span></p>
+        <br>
+        <div>Enter your email and password to register.</div>
+        <br>
+        <div><input type="text" name="Username" placeholder="Username" required />
+        </div>
+        <br>
+        <div><input type="text" name="email" placeholder="Enter your email address" required />
+        </div>
+        <br>
+        <div><input type="text" name="password" placeholder="Password" required />
+        </div>
+        <br>
+        <div><input type="text" name="Confirm Password" placeholder="Confirm Password" required />
+        </div>
+        <br>
+        <div><button type="submit" style="width: 26%; background-color:rgb(41, 180, 71);color: aliceblue;margin: 0 auto;"><b>Register</b></button>
+        </div>
+        <br>
+        <div>Or register with</div>
+        <br>
+        <div><button>Continue with Google</button>
+        </div>
+        <br>
+        <div><button style="width: 26%">Continue with Facebook</button></div>
+    </form>
+</body>
+
+</html>
